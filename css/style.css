@@ -1,16 +1,31 @@
+html{
+    font-size: 1rem;
+}
 main{
     margin: 1rem;
 }
-p{
+h1{
+    font-size: 2rem;
     color:black
 }
-header{
+p{color: black;}
+.headerpesquisa{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-style: solid;
     border-color:darkgrey;
     border-bottom-width: 0.05rem;
+    align-items: center;
+}
+.header_mapa{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    margin:1rem;
+    justify-content: center;
+
 }
 .filtro{
     width: 3rem;
@@ -29,6 +44,7 @@ main{
     text-decoration: none;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.8rem;
 }
 
 .relogio{
@@ -42,7 +58,7 @@ main{
 }
 
 .especificacao{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
 }
 .numero{
     margin-right: 0.8rem;
@@ -50,6 +66,8 @@ main{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
