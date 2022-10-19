@@ -1,0 +1,67 @@
+main{
+    margin: 1rem;
+}
+p{
+    color:black
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color:darkgrey;
+    border-bottom-width: 0.05rem;
+}
+.filtro{
+    width: 3rem;
+    height: 3rem;
+
+}
+main{
+    margin-bottom: 2rem;
+}
+.titulo{
+    margin-bottom: 0.3rem;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.relogio{
+
+    width: 3rem;
+    height: 3rem;
+}
+.pessoas{
+    width: 2rem;
+    height: 2rem;
+}
+
+.especificacao{
+    font-size: 0.6rem;
+}
+.numero{
+    margin-right: 0.8rem;
+    font-weight:bold  ;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: black;
+    border-top-width: 0.1rem;
+}
+.botao{
+    margin-top: 0.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2rem;
+    height: 2rem;
+
+}
