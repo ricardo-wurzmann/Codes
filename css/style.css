@@ -76,6 +76,7 @@ footer{
     border-style: solid;
     border-color: black;
     border-top-width: 0.1rem;
+    background-color: white;
 }
 .botao{
     margin-top: 0.2rem;
