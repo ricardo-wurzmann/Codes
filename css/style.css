@@ -134,3 +134,41 @@ footer{
     width: 6rem;
     height: 6rem;
 }
+
+.escreva{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    margin-bottom: 2rem;
+}
+
+.imgamata{
+    width: 22rem;
+    height: 28rem;
+}
+
+.headeramata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.titulo{
+    font-weight:bold  ;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.ftestrelas{
+    width: 4.5rem;
+    height: 1.3rem;   
+}
+
+.comentario{
+    font-size: 0.7rem;
+}
