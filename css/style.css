@@ -28,11 +28,26 @@ p{color: black;}
 
 }
 
+.headerperfil{
+    display: flex;
+    flex-direction: row;
+    top:0;
+    margin:1rem;
+    justify-content: center;
+}
+
+.ftperfil{
+    width: 5rem;
+    height: 5rem;
+}
 .filtro{
     width: 3rem;
     height: 3rem;
 
 }
+
+
+
 main{
     margin-bottom: 2rem;
 }
@@ -85,4 +100,37 @@ footer{
     width: 2rem;
     height: 2rem;
 
+}
+
+.barrafav{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-between;
+
+}
+
+.baresperfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+
+.iconao{
+    width: 3rem;
+    height: 3rem;
+}
+
+.iconespequenos{
+    display: flex;
+    flex-direction: row; 
+    width: 2rem;
+    height: 2rem;
+}
+
+.imagensfesta{
+    width: 6rem;
+    height: 6rem;
 }
